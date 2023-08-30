@@ -20,12 +20,19 @@ public class User {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
-        return age == user.age && Objects.equals(sourName, user.sourName) && Objects.equals(name, user.name) && status == user.status;
+        if (age != user.age) return false;
+        if (status != user.status) return false;
+        if (!Objects.equals(name, user.name)) return false;
+        return Objects.equals(sourName, user.sourName);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(age, sourName, name, status);
+        int result = name == null ? 0 : name.hashCode();
+        result = 31 * result + (sourName == null ? 0 : sourName.hashCode());
+        result = 31 * result + (status == null ? 0 : status.hashCode());
+        result = 31 * result + age;
+        return result;
     }
 
     public int getAge() {

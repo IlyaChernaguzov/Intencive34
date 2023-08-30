@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="Task1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/DailyOrderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/OrderCalculation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/OrderCatProcedure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/OrderDogProcedure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/Procedure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/UserStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/DailyOrderListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="Finish Task1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +142,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693329106952</updated>
-      <workItem from="1693329109936" duration="25156000" />
+      <workItem from="1693329109936" duration="28600000" />
     </task>
     <task id="LOCAL-00001" summary="Task1">
       <created>1693331287723</created>
@@ -168,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693331375531</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish Task1">
+      <created>1693408988500</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693408988500</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +184,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task1" />
+    <MESSAGE value="Finish Task1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Task1" />
   </component>
 </project>

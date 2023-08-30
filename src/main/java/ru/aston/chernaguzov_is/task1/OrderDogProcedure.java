@@ -15,13 +15,13 @@ public class OrderDogProcedure extends Order{
 
         switch (status){
             case NEW:
-                amountWithDiscount = amountWithDiscount.multiply(BigDecimal.valueOf(0.9));
+                amountWithDiscount = amountWithDiscount.multiply(new BigDecimal("0.9"));
                 break;
             case ORDINARY:
-                amountWithDiscount = amountWithDiscount.multiply(BigDecimal.valueOf(1));
+                amountWithDiscount = amountWithDiscount.multiply(new BigDecimal("1"));
                 break;
             case REGULAR:
-                amountWithDiscount = amountWithDiscount.multiply(BigDecimal.valueOf(0.75));
+                amountWithDiscount = amountWithDiscount.multiply(new BigDecimal("0.75"));
                 break;
         }
         return amountWithDiscount;

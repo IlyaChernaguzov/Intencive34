@@ -54,16 +54,16 @@ public abstract class Order implements Discount, Comparable<Order>{
 
         switch (procedure){
             case THERAPY:
-                amount = amount.add(BigDecimal.valueOf(2000));
+                amount = amount.add(new BigDecimal("2000"));
                 break;
             case CASTRATION:
-                amount = amount.add(BigDecimal.valueOf(6000));
+                amount = amount.add(new BigDecimal("6000"));
                 break;
             case CONSULTATION:
-                amount = amount.add(BigDecimal.valueOf(1000));
+                amount = amount.add(new BigDecimal("1000"));
                 break;
             case PARASITES:
-                amount =amount.add(BigDecimal.valueOf(3000));
+                amount = amount.add(new BigDecimal("3000"));
                 break;
         }
         return amount;
@@ -71,7 +71,7 @@ public abstract class Order implements Discount, Comparable<Order>{
 
     @Override
     public int compareTo(Order o) {
-        return this.getUser().getSourName().compareTo(o.getUser().getName());
+        return this.getUser().getSourName().compareTo(o.getUser().getSourName());
     }
 
 }

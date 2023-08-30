@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="Finish Task1" />
+    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="on a Colleague's Review">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/OrderCatProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/OrderCatProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/OrderDogProcedure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/OrderDogProcedure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/DailyOrderListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/DailyOrderListTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +69,7 @@
       <recent name="ru.aston.chernaguzov_is.task1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.DailyOrderListTest.getSortedList">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.App" />
       <module name="Intencive34" />
@@ -123,9 +132,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.DailyOrderListTest.getSortedList" />
         <item itemvalue="JUnit.DailyOrderListTest.calcDailyAmount" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
@@ -161,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693408988500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="on a Colleague's Review">
+      <created>1693414992170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693414992170</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +197,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task1" />
     <MESSAGE value="Finish Task1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Task1" />
+    <MESSAGE value="on a Colleague's Review" />
+    <option name="LAST_COMMIT_MESSAGE" value="on a Colleague's Review" />
   </component>
 </project>

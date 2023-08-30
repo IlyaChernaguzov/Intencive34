@@ -17,13 +17,13 @@ public class OrderCatProcedure extends Order{
 
         switch (status){
             case NEW:
-                amountWithDiscount = amountWithDiscount.multiply(BigDecimal.valueOf(0.8));
+                amountWithDiscount = amountWithDiscount.multiply(new BigDecimal("0.8"));
                 break;
             case ORDINARY:
-                amountWithDiscount = amountWithDiscount.multiply(BigDecimal.valueOf(1));
+                amountWithDiscount = amountWithDiscount.multiply(new BigDecimal("1"));
                 break;
             case REGULAR:
-                amountWithDiscount = amountWithDiscount.multiply(BigDecimal.valueOf(0.7));
+                amountWithDiscount = amountWithDiscount.multiply(new BigDecimal("0.7"));
                 break;
         }
         return amountWithDiscount;

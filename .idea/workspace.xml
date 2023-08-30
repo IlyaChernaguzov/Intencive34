@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="Task1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/DailyOrderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/OrderCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/OrderCatProcedure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/OrderDogProcedure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/Procedure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/DailyOrderListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +27,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,12 +58,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.aston.chernaguzov_is.task1" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.App" />
@@ -72,9 +103,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DailyOrderListTest.calcDailyAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intencive34" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task1" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.DailyOrderListTest" />
+      <option name="METHOD_NAME" value="calcDailyAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DailyOrderListTest.getSortedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intencive34" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task1" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.DailyOrderListTest" />
+      <option name="METHOD_NAME" value="getSortedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.DailyOrderListTest.getSortedList" />
+        <item itemvalue="JUnit.DailyOrderListTest.calcDailyAmount" />
         <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
@@ -87,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693329106952</updated>
-      <workItem from="1693329109936" duration="2228000" />
+      <workItem from="1693329109936" duration="25156000" />
     </task>
     <task id="LOCAL-00001" summary="Task1">
       <created>1693331287723</created>
@@ -96,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693331287723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Task1">
+      <created>1693331375531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693331375531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -6,7 +6,6 @@ import static ru.aston.chernaguzov_is.task1.Procedure.CONSULTATION;
 
 public abstract class Order implements Discount, Comparable<Order>{
     private Procedure procedure;
-
     private ProcedureAmount procedureAmount;
     private User user;
     private int id;

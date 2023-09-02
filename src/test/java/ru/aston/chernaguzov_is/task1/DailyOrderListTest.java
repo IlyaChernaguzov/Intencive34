@@ -1,6 +1,5 @@
 package ru.aston.chernaguzov_is.task1;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
 
@@ -9,7 +8,6 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
 public class DailyOrderListTest {
@@ -20,9 +18,15 @@ public class DailyOrderListTest {
         User user2 = new User(25, "Petrov", "Petr", UserStatus.ORDINARY);
         User user3 = new User(30, "Semenov", "Semen", UserStatus.REGULAR);
 
-        Order order1 = new OrderCatProcedure(Procedure.CONSULTATION, user1, 1);
-        Order order2 = new OrderDogProcedure(Procedure.CASTRATION, user2, 2);
-        Order order3 = new OrderCatProcedure(Procedure.PARASITES, user3, 3);
+        ProcedureAmount procedureAmount = new ProcedureAmount();
+        procedureAmount.setAmountTherapy(new BigDecimal("2000"));
+        procedureAmount.setAmountCastration(new BigDecimal("6000"));
+        procedureAmount.setAmountConsultation(new BigDecimal("1000"));
+        procedureAmount.setAmountParasites(new BigDecimal("3000"));
+
+        Order order1 = new OrderCatProcedure(Procedure.CONSULTATION, procedureAmount, user1, 1);
+        Order order2 = new OrderDogProcedure(Procedure.CASTRATION, procedureAmount, user2, 2);
+        Order order3 = new OrderCatProcedure(Procedure.PARASITES, procedureAmount, user3, 3);
 
         List<Order> resultList = new ArrayList<>();
         resultList.add(order3);
@@ -41,9 +45,15 @@ public class DailyOrderListTest {
         User user2 = new User(25, "Petrov", "Petr", UserStatus.ORDINARY);
         User user3 = new User(30, "Semenov", "Semen", UserStatus.REGULAR);
 
-        Order order1 = new OrderCatProcedure(Procedure.CONSULTATION, user1, 1);
-        Order order2 = new OrderDogProcedure(Procedure.CASTRATION, user2, 2);
-        Order order3 = new OrderCatProcedure(Procedure.PARASITES, user3, 3);
+        ProcedureAmount procedureAmount = new ProcedureAmount();
+        procedureAmount.setAmountTherapy(new BigDecimal("2000"));
+        procedureAmount.setAmountCastration(new BigDecimal("6000"));
+        procedureAmount.setAmountConsultation(new BigDecimal("1000"));
+        procedureAmount.setAmountParasites(new BigDecimal("3000"));
+
+        Order order1 = new OrderCatProcedure(Procedure.CONSULTATION, procedureAmount, user1, 1);
+        Order order2 = new OrderDogProcedure(Procedure.CASTRATION, procedureAmount, user2, 2);
+        Order order3 = new OrderCatProcedure(Procedure.PARASITES, procedureAmount, user3, 3);
 
         List<Order> resultList = new ArrayList<>();
         resultList.add(order3);

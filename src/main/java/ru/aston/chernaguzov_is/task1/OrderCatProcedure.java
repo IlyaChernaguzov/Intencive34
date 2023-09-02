@@ -5,8 +5,8 @@ import java.math.BigDecimal;
 public class OrderCatProcedure extends Order{
 
 
-    public OrderCatProcedure(Procedure procedure, User user, int id) {
-        super(procedure, user, id);
+    public OrderCatProcedure(Procedure procedure, ProcedureAmount procedureAmount, User user, int id) {
+        super(procedure, procedureAmount, user, id);
     }
 
 

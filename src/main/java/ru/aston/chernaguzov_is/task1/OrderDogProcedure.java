@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 
 public class OrderDogProcedure extends Order{
 
-    public OrderDogProcedure(Procedure procedure, User user, int id) {
-        super(procedure, user, id);
+    public OrderDogProcedure(Procedure procedure, ProcedureAmount procedureAmount, User user, int id) {
+        super(procedure, procedureAmount, user, id);
     }
 
     @Override

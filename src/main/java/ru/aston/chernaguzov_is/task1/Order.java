@@ -6,11 +6,14 @@ import static ru.aston.chernaguzov_is.task1.Procedure.CONSULTATION;
 
 public abstract class Order implements Discount, Comparable<Order>{
     private Procedure procedure;
+
+    private ProcedureAmount procedureAmount;
     private User user;
     private int id;
 
-    public Order(Procedure procedure, User user, int id) {
+    public Order(Procedure procedure, ProcedureAmount procedureAmount, User user, int id) {
         this.procedure = procedure;
+        this.procedureAmount = procedureAmount;
         this.user = user;
         this.id = id;
     }
@@ -21,6 +24,10 @@ public abstract class Order implements Discount, Comparable<Order>{
 
     public void setProcedure(Procedure procedure) {
         this.procedure = procedure;
+    }
+
+    public void setProcedureAmount(ProcedureAmount procedureAmount) {
+        this.procedureAmount = procedureAmount;
     }
 
     public User getUser() {
@@ -43,6 +50,7 @@ public abstract class Order implements Discount, Comparable<Order>{
     public String toString() {
         return "Order{" +
                 "procedure=" + procedure +
+                ", procedureAmount=" + procedureAmount +
                 ", user=" + user +
                 ", id=" + id +
                 '}';
@@ -54,16 +62,20 @@ public abstract class Order implements Discount, Comparable<Order>{
 
         switch (procedure){
             case THERAPY:
-                amount = amount.add(new BigDecimal("2000"));
+//                amount = amount.add(new BigDecimal("2000"));
+                amount = amount.add(procedureAmount.getAmountTherapy());
                 break;
             case CASTRATION:
-                amount = amount.add(new BigDecimal("6000"));
+//                amount = amount.add(new BigDecimal("6000"));
+                amount = amount.add(procedureAmount.getAmountCastration());
                 break;
             case CONSULTATION:
-                amount = amount.add(new BigDecimal("1000"));
+//                amount = amount.add(new BigDecimal("1000"));
+                amount = amount.add(procedureAmount.getAmountConsultation());
                 break;
             case PARASITES:
-                amount = amount.add(new BigDecimal("3000"));
+//                amount = amount.add(new BigDecimal("3000"));
+                amount = amount.add(procedureAmount.getAmountParasites());
                 break;
         }
         return amount;

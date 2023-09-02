@@ -1,5 +1,8 @@
 package ru.aston.chernaguzov_is.task1;
 
+import ru.aston.chernaguzov_is.task1.exceptions.CodException;
+import ru.aston.chernaguzov_is.task1.exceptions.CustomException;
+
 import java.math.BigDecimal;
 
 public class ProcedureAmount {
@@ -12,31 +15,27 @@ public class ProcedureAmount {
         return amountTherapy;
     }
 
-    public void setAmountTherapy(BigDecimal amountTherapy) {
-        this.amountTherapy = amountTherapy;
-    }
-
     public BigDecimal getAmountCastration() {
         return amountCastration;
-    }
-
-    public void setAmountCastration(BigDecimal amountCastration) {
-        this.amountCastration = amountCastration;
     }
 
     public BigDecimal getAmountConsultation() {
         return amountConsultation;
     }
 
-    public void setAmountConsultation(BigDecimal amountConsultation) {
-        this.amountConsultation = amountConsultation;
-    }
-
     public BigDecimal getAmountParasites() {
         return amountParasites;
     }
 
-    public void setAmountParasites(BigDecimal amountParasites) {
+    public void setAmount (BigDecimal amountTherapy, BigDecimal amountCastration, BigDecimal amountConsultation, BigDecimal amountParasites) throws CustomException {
+        if (amountTherapy.compareTo(BigDecimal.ZERO) <= 0 || amountConsultation.compareTo(BigDecimal.ZERO) <= 0 ||
+                amountCastration.compareTo(BigDecimal.ZERO) <= 0 || amountParasites.compareTo(BigDecimal.ZERO) <= 0){
+            throw new CustomException("Стоимость процедур не может быть меньше либо ровно 0", CodException.BAD_REQUEST);
+        }
+        this.amountTherapy = amountTherapy;
+        this.amountCastration = amountCastration;
+        this.amountConsultation = amountConsultation;
         this.amountParasites = amountParasites;
+
     }
 }

@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="on a Colleague's Review">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/exceptions/CodException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/exceptions/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/ProcedureAmountTest.java" afterDir="false" />
+    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="add Task1 for dz2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/CollectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/ProcedureAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task1/ProcedureAmount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/DailyOrderListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/DailyOrderListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +19,9 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,7 +67,7 @@
       <recent name="ru.aston.chernaguzov_is.task1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.CollectionTest.collectionsTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.Main" />
       <module name="Intencive34" />
@@ -87,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DailyOrderListTest.calcDailyAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionTest.arrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
@@ -96,14 +90,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task1" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.DailyOrderListTest" />
-      <option name="METHOD_NAME" value="calcDailyAmount" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.CollectionTest" />
+      <option name="METHOD_NAME" value="arrayListTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DailyOrderListTest.getSortedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionTest.collectionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
@@ -112,14 +106,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task1" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.DailyOrderListTest" />
-      <option name="METHOD_NAME" value="getSortedList" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.CollectionTest" />
+      <option name="METHOD_NAME" value="collectionsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcedureAmountTest.setAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionTest.hashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
@@ -128,14 +122,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task1" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.ProcedureAmountTest" />
-      <option name="METHOD_NAME" value="setAmount" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.CollectionTest" />
+      <option name="METHOD_NAME" value="hashMapTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcedureAmountTest.setAmount_exceptionAmountValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionTest.treeSetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +138,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task1" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.ProcedureAmountTest" />
-      <option name="METHOD_NAME" value="setAmount_exceptionAmountValue" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.CollectionTest" />
+      <option name="METHOD_NAME" value="treeSetTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CollectionTest.collectionsTest" />
+        <item itemvalue="JUnit.CollectionTest.treeSetTest" />
+        <item itemvalue="JUnit.CollectionTest.hashMapTest" />
+        <item itemvalue="JUnit.CollectionTest.arrayListTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.DailyOrderListTest.calcDailyAmount" />
-        <item itemvalue="JUnit.DailyOrderListTest.getSortedList" />
-        <item itemvalue="JUnit.ProcedureAmountTest.setAmount_exceptionAmountValue" />
-        <item itemvalue="JUnit.ProcedureAmountTest.setAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693331287723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Task1 for dz2">
+      <created>1693682743959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693682743959</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +198,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task1" />
+    <MESSAGE value="add Task1 for dz2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Task1 for dz2" />
   </component>
 </project>

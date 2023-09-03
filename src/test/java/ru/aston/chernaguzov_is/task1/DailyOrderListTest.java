@@ -23,7 +23,6 @@ public class DailyOrderListTest {
             procedureAmount.setAmount(new BigDecimal("2000"), new BigDecimal("6000"), new BigDecimal("1000"), new BigDecimal("3000"));
         } catch (CustomException e){
             e.printStackTrace();
-            System.exit(0);
         }
 
         Order order1 = new OrderCatProcedure(Procedure.CONSULTATION, procedureAmount, user1, 1);

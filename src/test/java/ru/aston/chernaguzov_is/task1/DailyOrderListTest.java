@@ -1,7 +1,7 @@
 package ru.aston.chernaguzov_is.task1;
 
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeEach;
+import ru.aston.chernaguzov_is.task1.exceptions.CustomException;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -19,10 +19,11 @@ public class DailyOrderListTest {
         User user3 = new User(30, "Semenov", "Semen", UserStatus.REGULAR);
 
         ProcedureAmount procedureAmount = new ProcedureAmount();
-        procedureAmount.setAmountTherapy(new BigDecimal("2000"));
-        procedureAmount.setAmountCastration(new BigDecimal("6000"));
-        procedureAmount.setAmountConsultation(new BigDecimal("1000"));
-        procedureAmount.setAmountParasites(new BigDecimal("3000"));
+        try {
+            procedureAmount.setAmount(new BigDecimal("2000"), new BigDecimal("6000"), new BigDecimal("1000"), new BigDecimal("3000"));
+        } catch (CustomException e){
+            e.printStackTrace();
+        }
 
         Order order1 = new OrderCatProcedure(Procedure.CONSULTATION, procedureAmount, user1, 1);
         Order order2 = new OrderDogProcedure(Procedure.CASTRATION, procedureAmount, user2, 2);
@@ -46,10 +47,12 @@ public class DailyOrderListTest {
         User user3 = new User(30, "Semenov", "Semen", UserStatus.REGULAR);
 
         ProcedureAmount procedureAmount = new ProcedureAmount();
-        procedureAmount.setAmountTherapy(new BigDecimal("2000"));
-        procedureAmount.setAmountCastration(new BigDecimal("6000"));
-        procedureAmount.setAmountConsultation(new BigDecimal("1000"));
-        procedureAmount.setAmountParasites(new BigDecimal("3000"));
+        try {
+            procedureAmount.setAmount(new BigDecimal("2000"), new BigDecimal("6000"), new BigDecimal("1000"), new BigDecimal("3000"));
+        } catch (CustomException e){
+            e.printStackTrace();
+            System.exit(0);
+        }
 
         Order order1 = new OrderCatProcedure(Procedure.CONSULTATION, procedureAmount, user1, 1);
         Order order2 = new OrderDogProcedure(Procedure.CASTRATION, procedureAmount, user2, 2);

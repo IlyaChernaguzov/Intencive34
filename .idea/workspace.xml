@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="add Task1 for dz2" />
+    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="add Dz2 in feaature_task2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693682743959</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Dz2 in feaature_task2">
+      <created>1693769355372</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693769355372</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +219,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task1" />
     <MESSAGE value="add Task1 for dz2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Task1 for dz2" />
+    <MESSAGE value="add Dz2 in feaature_task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Dz2 in feaature_task2" />
   </component>
 </project>

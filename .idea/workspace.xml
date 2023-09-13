@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="add Dz4 in master">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/exception/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/impl/UserServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task4/service/impl/UserServiceimplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="add Dz5 in develop">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/impl/OrderServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task4/service/impl/OrderServiceimplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dao/OrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dao/OrderDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/CollectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/DailyOrderListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/DailyOrderListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/ProcedureAmountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task1/ProcedureAmountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/impl/UserServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/impl/UserServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task4/service/impl/UserServiceimplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task4/service/impl/UserServiceimplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +29,8 @@
       <list>
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -86,23 +84,55 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.aston.chernaguzov_is.task4.service" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.aston.chernaguzov_is.task4.service.impl" />
       <recent name="ru.aston.chernaguzov_is.task4.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProcedureAmountTest.setAmount_exceptionAmountValue">
-    <configuration name="ProcedureAmountTest.setAmount_exceptionAmountValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserServiceimplTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.Main" />
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task1.*" />
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task1" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task1.ProcedureAmountTest" />
-      <option name="METHOD_NAME" value="setAmount_exceptionAmountValue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceimplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intencive34" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.OrderServiceimplTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceimplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intencive34" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.OrderServiceimplTest" />
+      <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,7 +153,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceimplTest.create_exceptionFieldsIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceimplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
@@ -133,39 +163,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
       <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.UserServiceimplTest" />
-      <option name="METHOD_NAME" value="create_exceptionFieldsIsNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceimplTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Intencive34" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.UserServiceimplTest" />
-      <option name="METHOD_NAME" value="read" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceimplTest.read_exceptionFieldsIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Intencive34" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.UserServiceimplTest" />
-      <option name="METHOD_NAME" value="read_exceptionFieldsIsNull" />
+      <option name="METHOD_NAME" value="create" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProcedureAmountTest.setAmount_exceptionAmountValue" />
         <item itemvalue="JUnit.UserServiceimplTest" />
-        <item itemvalue="JUnit.UserServiceimplTest.read" />
-        <item itemvalue="JUnit.UserServiceimplTest.read_exceptionFieldsIsNull" />
-        <item itemvalue="JUnit.UserServiceimplTest.create_exceptionFieldsIsNull" />
+        <item itemvalue="JUnit.UserServiceimplTest.create" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.OrderServiceimplTest.delete" />
+        <item itemvalue="JUnit.OrderServiceimplTest.update" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693329106952</updated>
       <workItem from="1693329109936" duration="2228000" />
-      <workItem from="1694602787335" duration="17564000" />
+      <workItem from="1694602787335" duration="23443000" />
     </task>
     <task id="LOCAL-00001" summary="Task1">
       <created>1693331287723</created>
@@ -220,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694417876119</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add Dz5 in develop">
+      <created>1694620713645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694620713645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +262,8 @@
     <MESSAGE value="add Task1 for dz2" />
     <MESSAGE value="add Dz2 in feaature_task2" />
     <MESSAGE value="add Dz4 in master" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Dz4 in master" />
+    <MESSAGE value="add Dz5 in develop" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Dz5 in develop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -278,6 +284,9 @@
       <FILTER>ru.aston.chernaguzov_is.task4.service.impl.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Intencive34$UserServiceimplTest_create.ic" NAME="UserServiceimplTest.create Coverage Results" MODIFIED="1694613058434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.aston.chernaguzov_is.task4.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Intencive34$UserServiceimplTest.ic" NAME="UserServiceimplTest Coverage Results" MODIFIED="1694620529030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.aston.chernaguzov_is.task4.service.impl.*</FILTER>
     </SUITE>
   </component>

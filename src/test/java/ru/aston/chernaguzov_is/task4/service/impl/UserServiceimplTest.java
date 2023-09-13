@@ -63,13 +63,13 @@ class UserServiceimplTest {
         test.setOrderId(3L);
 
 
-        when(mock.findUserByEmail(Mockito.anyString())).thenReturn(null);
+        when(mock.findUserByEmail(anyString())).thenReturn(null);
         when(mock.create(any(User.class))).thenReturn(true);
 
-        UserDTO actual = userService.create(test);
+        String actual = userService.create(test);
 
         Assertions.assertNotNull(actual);
-        Assertions.assertEquals(test.getName(), actual.getName());
+        Assertions.assertEquals("OK", actual);
 
     }
 
@@ -99,10 +99,10 @@ class UserServiceimplTest {
         when(mock.findUserByEmail(anyString())).thenReturn(user);
         when(mock.delete(anyLong())).thenReturn(true);
 
-        boolean isDelete = userService.delete(user.getEmail());
+        String actual = userService.delete(user.getEmail());
 
         verify(mock, times(1)).delete(anyLong());
-        assertTrue(isDelete);
+        assertEquals("OK", actual);
 
     }
 }

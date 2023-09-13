@@ -67,11 +67,12 @@ public class OrderDAO implements DaoDataEntityLayer<Order>{
             preparedStatement.setLong(1, id);
 
             ResultSet resultSet = preparedStatement.executeQuery();
-            resultSet.next();
 
-            order = new Order();
-            order.setId(resultSet.getLong("id"));
-            order.setItem(resultSet.getString("item_name"));
+            if(resultSet.next()){
+                order = new Order();
+                order.setId(resultSet.getLong("id"));
+                order.setItem(resultSet.getString("item_name"));
+            }
 
         } catch (SQLException e) {
             e.printStackTrace();

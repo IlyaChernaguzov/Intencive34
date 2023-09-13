@@ -25,12 +25,13 @@ public class UserServiceimpl implements UserService {
     @Override
     public UserDTO read (String email){
         User user = getUser(email);
-        return objectMapper.convertValue(user, UserDTO.class);
+        UserDTO result = objectMapper.convertValue(user, UserDTO.class);
+        result.setId(user.getId());
+        return result;
     }
 
     @Override
-    public UserDTO create (UserDTO userDTO){
-
+    public String create (UserDTO userDTO){
         if (StringUtils.isBlank(userDTO.getSurname()) ||
                 StringUtils.isBlank(userDTO.getName()) ||
                 StringUtils.isBlank(userDTO.getPhone()) ||
@@ -44,9 +45,9 @@ public class UserServiceimpl implements UserService {
                 });
 
         User user = objectMapper.convertValue(userDTO, User.class);
-        UserDTO save = null;
+        String save = "Not OK";
         if(userDAO.create(user)) {
-            save = userDTO;
+            save = "OK";
         }
 
         return save;
@@ -63,18 +64,20 @@ public class UserServiceimpl implements UserService {
         user.setOrderId(userDTO.getOrderId() == null ? user.getOrderId() : userDTO.getOrderId());
 
         User afterUpdate = userDAO.update(user);
-        return objectMapper.convertValue(afterUpdate, UserDTO.class);
+        UserDTO result = objectMapper.convertValue(afterUpdate, UserDTO.class);
+        result.setId(user.getId());
+        return result;
 
     }
 
     @Override
-    public boolean delete (String email){
-        boolean isDelete = false;
+    public String delete (String email){
+        String delete = "Not OK";
         User user = getUser(email);
         if(userDAO.delete(user.getId())){
-            isDelete = true;
+            delete = "OK";
         }
-        return isDelete;
+        return delete;
     }
 
     private User getUser (String email){

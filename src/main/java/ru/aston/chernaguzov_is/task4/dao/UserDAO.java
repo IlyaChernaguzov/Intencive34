@@ -70,8 +70,8 @@ public class UserDAO implements DaoDataEntityLayer<User>{
             preparedStatement.setLong(1, id);
 
             ResultSet resultSet = preparedStatement.executeQuery();
-            if(resultSet.next()) {
 
+            if(resultSet.next()) {
                 user = new User();
                 user.setId(resultSet.getLong("id"));
                 user.setSurname(resultSet.getString("surname"));

@@ -2,11 +2,20 @@ package ru.aston.chernaguzov_is.task4.dto;
 
 public class UserDTO {
 
+    private Long id;
     private String surname;
     private String name;
     private String phone;
     private String email;
     private Long orderId;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getSurname() {
         return surname;
@@ -51,7 +60,8 @@ public class UserDTO {
     @Override
     public String toString() {
         return "UserDTO{" +
-                "surname='" + surname + '\'' +
+                "id=" + id +
+                ", surname='" + surname + '\'' +
                 ", name='" + name + '\'' +
                 ", phone='" + phone + '\'' +
                 ", email='" + email + '\'' +

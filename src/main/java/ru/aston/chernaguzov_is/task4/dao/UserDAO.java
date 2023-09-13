@@ -70,15 +70,43 @@ public class UserDAO implements DaoDataEntityLayer<User>{
             preparedStatement.setLong(1, id);
 
             ResultSet resultSet = preparedStatement.executeQuery();
-            resultSet.next();
 
-            user = new User();
-            user.setId(resultSet.getLong("id"));
-            user.setSurname(resultSet.getString("surname"));
-            user.setName(resultSet.getString("name"));
-            user.setPhone(resultSet.getString("phone"));
-            user.setEmail(resultSet.getString("email"));
-            user.setOrderId(resultSet.getLong("orderID"));
+            if(resultSet.next()) {
+                user = new User();
+                user.setId(resultSet.getLong("id"));
+                user.setSurname(resultSet.getString("surname"));
+                user.setName(resultSet.getString("name"));
+                user.setPhone(resultSet.getString("phone"));
+                user.setEmail(resultSet.getString("email"));
+                user.setOrderId(resultSet.getLong("orderID"));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return user;
+    }
+
+    public User findUserByEmail(String email) {
+        User user = null;
+
+        try {
+            Connection connection = ConnectionBD.getConnection();
+            PreparedStatement preparedStatement =
+                    connection.prepareStatement("select * from users where email = ?");
+            preparedStatement.setString(1, email);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if(resultSet.next()) {
+
+                user = new User();
+                user.setId(resultSet.getLong("id"));
+                user.setSurname(resultSet.getString("surname"));
+                user.setName(resultSet.getString("name"));
+                user.setPhone(resultSet.getString("phone"));
+                user.setEmail(resultSet.getString("email"));
+                user.setOrderId(resultSet.getLong("orderID"));
+            }
 
         } catch (SQLException e) {
             e.printStackTrace();

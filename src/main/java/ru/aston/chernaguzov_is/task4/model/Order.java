@@ -1,8 +1,11 @@
 package ru.aston.chernaguzov_is.task4.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.Objects;
 
 public class Order {
+    @JsonIgnore
     private Long id;
     private String item;
 

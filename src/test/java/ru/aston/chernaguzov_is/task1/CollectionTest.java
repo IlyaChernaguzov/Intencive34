@@ -1,12 +1,14 @@
 package ru.aston.chernaguzov_is.task1;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.*;
 
 import static java.util.Collections.*;
 import static java.util.Optional.*;
-import static org.junit.Assert.*;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CollectionTest {
 

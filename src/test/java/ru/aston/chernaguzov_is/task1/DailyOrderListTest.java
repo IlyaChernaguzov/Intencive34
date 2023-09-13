@@ -1,6 +1,7 @@
 package ru.aston.chernaguzov_is.task1;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 import ru.aston.chernaguzov_is.task1.exceptions.CustomException;
 
 import java.math.BigDecimal;
@@ -8,7 +9,8 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DailyOrderListTest {
 

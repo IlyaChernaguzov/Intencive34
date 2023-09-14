@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="add Dz5 in develop">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/impl/OrderServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task4/service/impl/OrderServiceimplTest.java" afterDir="false" />
+    <list default="true" id="b677aa7a-faf7-4b5c-be85-2a99f0b42757" name="Changes" comment="add Dz5 in develop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="feaature_task5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,8 +76,8 @@
       <recent name="ru.aston.chernaguzov_is.task4.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderServiceimplTest.create">
-    <configuration name="OrderServiceimplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrderServiceimplTest">
+    <configuration name="OrderServiceimplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +87,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
       <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.OrderServiceimplTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,7 +157,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderServiceimplTest.create" />
+        <item itemvalue="JUnit.OrderServiceimplTest" />
         <item itemvalue="JUnit.UserServiceimplTest.create" />
         <item itemvalue="JUnit.UserServiceimplTest" />
         <item itemvalue="JUnit.OrderServiceimplTest.update" />

@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="add Dz2 in develop">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dao/DaoDataEntityLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dao/OrderDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/utils/ConnectionBD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties.origin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task4/dao/OrderDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task4/dao/UserDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="add Dz5 in develop">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/impl/OrderServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task4/service/impl/OrderServiceimplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,20 +41,37 @@
   </component>
   <component name="ProjectId" id="2UfSNWjOYW22OxSwgEF5VtBDLJm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Курс Java ИТМО/Java (расширенный)/demo&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/Стажировка Aston/Код/Intencive34",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "MavenSettings"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -72,7 +80,7 @@
       <recent name="ru.aston.chernaguzov_is.task4.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserDAOTest.findAllUsersAndOrders">
+  <component name="RunManager" selected="JUnit.UserServiceimplTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.Main" />
       <module name="Intencive34" />
@@ -86,64 +94,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderServiceimplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.dao.*" />
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.dao" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.dao.UserDAOTest" />
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.OrderServiceimplTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceimplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intencive34" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.OrderServiceimplTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceimplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intencive34" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.UserServiceimplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDAOTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceimplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.dao.*" />
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.dao" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.dao.UserDAOTest" />
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.UserServiceimplTest" />
       <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDAOTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Intencive34" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.dao" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.dao.UserDAOTest" />
-      <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDAOTest.findAllUsersAndOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Intencive34" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.dao" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.dao.UserDAOTest" />
-      <option name="METHOD_NAME" value="findAllUsersAndOrders" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693769355372</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Dz4 in master">
+      <created>1694417876119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694417876119</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add Dz5 in develop">
+      <created>1694620713645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694620713645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +241,33 @@
     <MESSAGE value="Task1" />
     <MESSAGE value="add Task1 for dz2" />
     <MESSAGE value="add Dz2 in feaature_task2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Dz2 in feaature_task2" />
+    <MESSAGE value="add Dz4 in master" />
+    <MESSAGE value="add Dz5 in develop" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Dz5 in develop" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="ru.aston.chernaguzov_is.task4.exception.MyException" package="ru.aston.chernaguzov_is.task4.exception" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="9" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Intencive34$UserServiceimplTest_read.ic" NAME="UserServiceimplTest.read Coverage Results" MODIFIED="1694611317924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.aston.chernaguzov_is.task4.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Intencive34$UserServiceimplTest_create.ic" NAME="UserServiceimplTest.create Coverage Results" MODIFIED="1694613058434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.aston.chernaguzov_is.task4.service.impl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Intencive34$UserServiceimplTest.ic" NAME="UserServiceimplTest Coverage Results" MODIFIED="1694620529030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.aston.chernaguzov_is.task4.service.impl.*</FILTER>
+    </SUITE>
   </component>
 </project>

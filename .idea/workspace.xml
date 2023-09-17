@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="add Dz5 in develop">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/service/impl/OrderServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task4/service/impl/OrderServiceimplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task6/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task6/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task6/PairOfNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task6/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task6/StreamAPITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +20,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -45,33 +46,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "D:/Стажировка Aston/Код/Intencive34",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Стажировка Aston/Код/Intencive34&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -80,78 +81,82 @@
       <recent name="ru.aston.chernaguzov_is.task4.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceimplTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.Main" />
+  <component name="RunManager" selected="JUnit.StreamAPITest.getResidentsInCities">
+    <configuration name="StreamAPITest.divisionByThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.*" />
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceimplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Intencive34" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.OrderServiceimplTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task6" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task6.StreamAPITest" />
+      <option name="METHOD_NAME" value="divisionByThree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceimplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamAPITest.elementsInOneLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.OrderServiceimplTest" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task6" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task6.StreamAPITest" />
+      <option name="METHOD_NAME" value="elementsInOneLine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceimplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamAPITest.getGroupsByCity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.UserServiceimplTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task6" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task6.StreamAPITest" />
+      <option name="METHOD_NAME" value="getGroupsByCity" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceimplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamAPITest.getResidentsInCities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.aston.chernaguzov_is.task4.service.impl.*" />
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task4.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task4.service.impl.UserServiceimplTest" />
-      <option name="METHOD_NAME" value="create" />
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task6" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task6.StreamAPITest" />
+      <option name="METHOD_NAME" value="getResidentsInCities" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPITest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Intencive34" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.aston.chernaguzov_is.task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task6" />
+      <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task6.StreamAPITest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,7 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StreamAPITest.getResidentsInCities" />
+        <item itemvalue="JUnit.StreamAPITest.test" />
+        <item itemvalue="JUnit.StreamAPITest.divisionByThree" />
+        <item itemvalue="JUnit.StreamAPITest.elementsInOneLine" />
+        <item itemvalue="JUnit.StreamAPITest.getGroupsByCity" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +220,9 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -244,20 +256,6 @@
     <MESSAGE value="add Dz4 in master" />
     <MESSAGE value="add Dz5 in develop" />
     <option name="LAST_COMMIT_MESSAGE" value="add Dz5 in develop" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="ru.aston.chernaguzov_is.task4.exception.MyException" package="ru.aston.chernaguzov_is.task4.exception" />
-          <option name="timeStamp" value="8" />
-        </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="9" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Intencive34$UserServiceimplTest_read.ic" NAME="UserServiceimplTest.read Coverage Results" MODIFIED="1694611317924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

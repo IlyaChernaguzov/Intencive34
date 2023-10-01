@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="094bd3b2-3cbe-4716-b82e-c5ca15ecc23f" name="Changes" comment="add Dz5 in develop">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task6/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task6/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task6/PairOfNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task6/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task6/StreamAPITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dao/OrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/chernaguzov_is/task4/dao/OrderDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task6/StreamAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/aston/chernaguzov_is/task6/StreamAPITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +17,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -31,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,33 +43,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Стажировка Aston/Код/Intencive34&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "D:/Курс Java ИТМО/Java (базовый)/IdeaProjects/LabsJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "MavenSettings"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -81,8 +78,8 @@
       <recent name="ru.aston.chernaguzov_is.task4.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamAPITest.getResidentsInCities">
-    <configuration name="StreamAPITest.divisionByThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StreamAPITest.elementsInMap">
+    <configuration name="StreamAPITest.elementsInMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Intencive34" />
       <extension name="coverage">
         <pattern>
@@ -92,7 +89,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.aston.chernaguzov_is.task6" />
       <option name="MAIN_CLASS_NAME" value="ru.aston.chernaguzov_is.task6.StreamAPITest" />
-      <option name="METHOD_NAME" value="divisionByThree" />
+      <option name="METHOD_NAME" value="elementsInMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StreamAPITest.getResidentsInCities" />
-        <item itemvalue="JUnit.StreamAPITest.test" />
-        <item itemvalue="JUnit.StreamAPITest.divisionByThree" />
-        <item itemvalue="JUnit.StreamAPITest.elementsInOneLine" />
+        <item itemvalue="JUnit.StreamAPITest.elementsInMap" />
         <item itemvalue="JUnit.StreamAPITest.getGroupsByCity" />
+        <item itemvalue="JUnit.StreamAPITest.test" />
+        <item itemvalue="JUnit.StreamAPITest.getResidentsInCities" />
+        <item itemvalue="JUnit.StreamAPITest.elementsInOneLine" />
       </list>
     </recent_temporary>
   </component>
@@ -219,9 +216,6 @@
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -78,6 +78,7 @@ public class OrderDAO implements DaoDataEntityLayer<Order>{
             e.printStackTrace();
         }
         return order;
+
     }
 
     @Override
@@ -117,6 +118,28 @@ public class OrderDAO implements DaoDataEntityLayer<Order>{
 
         return isModifiedRows;
     }
+
+    //        @Override
+//        public User create(User user) {
+//            Connection connection = connectionPoolBuilder.getConnection();
+//            try(PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO users (firstname,lastname,email,phone) VALUES (?,?,?,?)",PreparedStatement.RETURN_GENERATED_KEYS)) {
+//                preparedStatement.setString(1,user.getFirstname());
+//                preparedStatement.setString(2,user.getLastname());
+//                preparedStatement.setString(3,user.getEmail());
+//                preparedStatement.setString(4,user.getPhone());
+//                preparedStatement.executeUpdate();
+//                ResultSet res =  preparedStatement.getGeneratedKeys();
+//                res.next();
+//                user.setId(res.getInt(1));
+//                return user;
+//
+//            } catch (SQLException e) {
+//                throw new RuntimeException(e);
+//            }
+//            finally {
+//                connectionPoolBuilder.releaseConnection(connection);
+//            }
+//        }
 
     @Override
     public Order update(Order order) {

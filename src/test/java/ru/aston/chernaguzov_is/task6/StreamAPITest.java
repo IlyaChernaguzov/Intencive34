@@ -88,12 +88,36 @@ public class StreamAPITest {
                 new Person("Ivan", "Ivanov", 29, new Address(City.VITEBSK, "Gagarina", "7", 222)),
                 new Person("Sergey", "Sergeev", 34, new Address(City.MINSK, "Lenina", "23", 0)),
                 new Person("Nikolay", "Nikolaev", 25, new Address(City.MOGILEV, "Oktybrskay", "45", 181)),
+                new Person("Petr", "Pertrov", 41, new Address(City.BREST, "Centralnay", "123", 328)),
                 new Person("Petr", "Pertrov", 41, new Address(City.BREST, "Centralnay", "123", 328))
         );
 
         Map<Boolean, Long> result =
                 people.collect(partitioningBy(p -> p.getAddress().getDistanceToTheCapital() < 200,
                         counting()));
+
+//        Map<Boolean, Map<City, Long>> result =
+//                people.collect(Collectors.partitioningBy(p -> p.getAddress().getDistanceToTheCapital() < 200,
+//                        groupingBy(r -> r.getAddress().getCity(), counting())));
+
+//        Map<Boolean,Map<City, String>> result =
+//                people.collect(partitioningBy(p -> p.getAddress().getDistanceToTheCapital() < 200,
+//                        groupingBy(p -> p.getAddress().getCity(),
+//                                mapping(Person::getName,
+//                                        joining(", ", "{","}")))));
+
+//        Map<Boolean, List<City>> result =
+//                people.collect(partitioningBy(p -> p.getAddress().getDistanceToTheCapital() < 200,
+//                        Collectors.mapping(r -> r.getAddress().getCity(), Collectors.toList())));
+
+//                Map<City, Map<String, List<Person>>> result =
+//                people.collect(
+//                        groupingBy(p -> p.getAddress().getCity(),
+//                        groupingBy(Person::getName)));
+
+
+
+//        System.out.println(result);
 
 
         System.out.println("дальний: " + result.get(false));
@@ -187,6 +211,26 @@ public class StreamAPITest {
         String result = words.collect(Collectors.joining(" "));
 
         System.out.println(result);
+
+    }
+
+
+    @Test
+    public void elementsInMap(){
+
+        Stream<String> stringStream = Stream.of("apple", "banana", "cherry");
+//        Map<String, String> groupedMap;
+//        groupedMap = stringStream
+//                .collect(Collectors.toMap(
+//                        key -> key,
+//                        value -> value,
+//                        (o, o2) -> o,
+//                        HashMap::new
+//                ));
+//        groupedMap.forEach((key, value) -> System.out.println(key + " " + value));
+
+        Map<Character, List<String>> groupedMap = stringStream.collect(Collectors.groupingBy(s -> s.charAt(0)));
+        System.out.println(groupedMap);
 
     }
 
